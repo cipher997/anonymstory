@@ -32,7 +32,48 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.sub-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  color: white;
+  background-color: #007AFF;
+}
+
+.input-field-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-wrap {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.input-sub-container {
+  background-color: #7f56d923;
+  padding: 50px;
+  margin: 10px 200px;
+  border-radius: 10px;
+}
+
+.input-label-wrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-save {
+  background-color: #007AFF;
+  padding: 5px 20px;
+  border-radius: 5px;
+  color: white;
 }

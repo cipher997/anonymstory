@@ -1,9 +1,10 @@
 import './App.css';
+import MainLayout from './components/MainLayout/MainLayout';
 
 function App() {
   return (
     <div className="App">
-      anonymstory
+      <MainLayout />
     </div>
   );
 }
